@@ -1,0 +1,30 @@
+#container {
+    background-color: aliceblue;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#fig1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+#f1 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+}

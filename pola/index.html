@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Figury geometryczne</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="funkcje.js"></script>
+</head>
+
+<body onload="hideWyniki()">
+
+<div id="container">
+    <h1>Figury geometryczne</h1>
+
+    <div id="fig1">
+
+        <!-- PROSTOKĄT -->
+        <fieldset id="f1">
+            <legend>Prostokąt</legend>
+
+            <label> Bok a = </label><br>
+            <input type="text" id="pr_a"><br>
+
+            <label> Bok b = </label><br>
+            <input type="text" id="pr_b"><br><br>
+
+            <input type="button" value="Oblicz" onclick="obliczPr()"><br><br>
+
+            <p id="p_polePr"></p>
+            <p id="p_obwPr"></p>
+        </fieldset>
+
+        <!-- TRÓJKĄT -->
+        <fieldset id="f1">
+            <legend>Trójkąt</legend>
+
+            <label> Bok a = </label><br>
+            <input type="text" id="tr_a"><br>
+
+            <label> Bok b = </label><br>
+            <input type="text" id="tr_b"><br>
+
+            <label> Bok c = </label><br>
+            <input type="text" id="tr_c"><br>
+
+            <label> Wysokość h = </label><br>
+            <input type="text" id="tr_h"><br><br>
+
+            <input type="button" value="Oblicz" onclick="obliczTrojkat()"><br><br>
+
+            <p id="p_poleTr"></p>
+            <p id="p_obwTr"></p>
+        </fieldset>
+
+        <!-- KOŁO -->
+        <fieldset id="f1">
+            <legend>Koło</legend>
+
+            <label> Promień r = </label><br>
+            <input type="text" id="k_r"><br><br>
+
+            <input type="button" value="Oblicz" onclick="obliczKolo()"><br><br>
+
+            <p id="p_poleK"></p>
+            <p id="p_obwK"></p>
+        </fieldset>
+
+        <!-- TRAPEZ -->
+        <fieldset id="f1">
+            <legend>Trapez</legend>
+
+            <label> Podstawa a = </label><br>
+            <input type="text" id="t_a"><br>
+
+            <label> Podstawa b = </label><br>
+            <input type="text" id="t_b"><br>
+
+            <label> Bok c = </label><br>
+            <input type="text" id="t_c"><br>
+
+            <label> Bok d = </label><br>
+            <input type="text" id="t_d"><br>
+
+            <label> Wysokość h = </label><br>
+            <input type="text" id="t_h"><br><br>
+
+            <input type="button" value="Oblicz" onclick="obliczTrapez()"><br><br>
+
+            <p id="p_poleT"></p>
+            <p id="p_obwT"></p>
+        </fieldset>
+
+    </div>
+</div>
+
+</body>
+</html>
+
