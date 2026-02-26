@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: linear-gradient(rgb(199, 199, 199),rgb(255, 255, 255));
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(62, 62, 62);
+    border-style: dotted;
+    border-color: rgb(33, 33, 33);
+}
+
+.gluwne{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white; 
+    border-radius: 20px;
+}
+
+
+.foto{
+    display: block;
+    border-color: rgb(12, 214, 133);
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(154, 154, 154);
+    border-radius: 5px;
+}
